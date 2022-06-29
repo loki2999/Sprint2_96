@@ -6,6 +6,7 @@ import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 
 public class Orangehrmpagefactory {
+	// pom with page factory 
         WebDriver driver;
 		@FindBy(name="txtUsername")
 		@CacheLookup

@@ -15,11 +15,10 @@ import cucumber.api.junit.Cucumber;
 							"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
 			features="Feature",
 			glue={"step_definitions"}
-			,tags={"@OrangeHrm"}
+			,tags={"@Successful_login"}
+			)
 					
 
-			
-			)
-	public class Test_runner {
+public class Test_runner1 {
 
 }

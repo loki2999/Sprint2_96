@@ -6,363 +6,16 @@
         "before": [
           {
             "result": {
-              "duration": 3431925800,
+              "duration": 2406998015,
               "status": "passed"
             },
             "match": {
-              "location": "Test_steps.openBrowser()"
+              "location": "Test1_steps.openBrowser()"
             }
-          }
-        ],
-        "line": 4,
-        "name": "Login with blank data",
-        "description": "",
-        "id": "orangehrm;login-with-blank-data",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 3786427800,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "user is on login page",
-            "match": {
-              "location": "Test_steps.user_is_on_login_page()"
-            },
-            "keyword": "Given "
           },
           {
             "result": {
-              "duration": 149523500,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "user do not enter username and password",
-            "match": {
-              "location": "Test_steps.user_do_not_enter_username_and_password()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 58387700,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "click on login button",
-            "match": {
-              "location": "Test_steps.click_on_login_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 294400,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "Alert username should not be empty",
-            "match": {
-              "location": "Test_steps.alert_username_should_not_be_empty()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 2120119900,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "close",
-            "match": {
-              "location": "Test_steps.close()"
-            },
-            "keyword": "And "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@OrangeHrm"
-          },
-          {
-            "name": "@Unsuccessful_login"
-          }
-        ]
-      },
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 1297928900,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Test_steps.openBrowser()"
-            }
-          }
-        ],
-        "line": 11,
-        "name": "Login with blank password",
-        "description": "",
-        "id": "orangehrm;login-with-blank-password",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 3725958600,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "user is on login page",
-            "match": {
-              "location": "Test_steps.user_is_on_login_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 118502700,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "user entered username",
-            "match": {
-              "location": "Test_steps.user_entered_username()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 63512100,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "click on login button",
-            "match": {
-              "location": "Test_steps.click_on_login_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 274000,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "Alert password should not be  empty",
-            "match": {
-              "location": "Test_steps.alert_password_should_not_be_empty()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 2094804300,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "close",
-            "match": {
-              "location": "Test_steps.close()"
-            },
-            "keyword": "And "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@OrangeHrm"
-          },
-          {
-            "name": "@Unsuccessful_login"
-          }
-        ]
-      },
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 1265844500,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Test_steps.openBrowser()"
-            }
-          }
-        ],
-        "line": 18,
-        "name": "Login with blank username",
-        "description": "",
-        "id": "orangehrm;login-with-blank-username",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 3736606400,
-              "status": "passed"
-            },
-            "line": 19,
-            "name": "user is on login page",
-            "match": {
-              "location": "Test_steps.user_is_on_login_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 139989300,
-              "status": "passed"
-            },
-            "line": 20,
-            "name": "user entered password",
-            "match": {
-              "location": "Test_steps.user_entered_password()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 63719000,
-              "status": "passed"
-            },
-            "line": 21,
-            "name": "click on login button",
-            "match": {
-              "location": "Test_steps.click_on_login_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 199100,
-              "status": "passed"
-            },
-            "line": 22,
-            "name": "Alert username  should not be  empty",
-            "match": {
-              "location": "Test_steps.alert_username_should_not_be_empty1()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 2112236000,
-              "status": "passed"
-            },
-            "line": 23,
-            "name": "close",
-            "match": {
-              "location": "Test_steps.close()"
-            },
-            "keyword": "And "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@OrangeHrm"
-          },
-          {
-            "name": "@Unsuccessful_login"
-          }
-        ]
-      },
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 1280892000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Test_steps.openBrowser()"
-            }
-          }
-        ],
-        "line": 25,
-        "name": "Login with invalid data",
-        "description": "",
-        "id": "orangehrm;login-with-invalid-data",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 3757070700,
-              "status": "passed"
-            },
-            "line": 26,
-            "name": "user is on login page",
-            "match": {
-              "location": "Test_steps.user_is_on_login_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 120207300,
-              "status": "passed"
-            },
-            "line": 27,
-            "name": "user  entered invalid  username and password",
-            "match": {
-              "location": "Test_steps.user_entered_invalid_username_and_password()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 5851956600,
-              "status": "passed"
-            },
-            "line": 28,
-            "name": "click on login button",
-            "match": {
-              "location": "Test_steps.click_on_login_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 414700,
-              "status": "passed"
-            },
-            "line": 29,
-            "name": "Alert invalid credentials",
-            "match": {
-              "location": "Test_steps.alert_invalid_credentials()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 2098280300,
-              "status": "passed"
-            },
-            "line": 30,
-            "name": "close",
-            "match": {
-              "location": "Test_steps.close()"
-            },
-            "keyword": "And "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@OrangeHrm"
-          },
-          {
-            "name": "@Unsuccessful_login"
-          }
-        ]
-      },
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 1398788200,
+              "duration": 1297078040,
               "status": "passed"
             },
             "match": {
@@ -379,7 +32,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3726921700,
+              "duration": 9949254400,
               "status": "passed"
             },
             "line": 33,
@@ -391,8 +44,9 @@
           },
           {
             "result": {
-              "duration": 127247400,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d102.0.5005.115)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027H_7\u0027, ip: \u0027192.168.43.212\u0027, os.name: \u0027Windows 8.1\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.3\u0027, java.version: \u002718.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\\Users\\H-7\\AppData\\Local\\...}, goog:chromeOptions: {debuggerAddress: localhost:63240}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 2d7b27e3feb37fe835bf57c92c8aa64c\n*** Element info: {Using\u003dname, value\u003dtxtUsername}\r\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)\r\n\tat org.openqa.selenium.By$ByName.findElement(By.java:284)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy18.sendKeys(Unknown Source)\r\n\tat com.test_runner.Orangehrmpagefactory.setUname(Orangehrmpagefactory.java:122)\r\n\tat step_definitions.Test_steps.user_entered_valid_username_and_password(Test_steps.java:113)\r\n\tat ✽.user entered valid username and password(Feature/orangehrm.feature:34)\r\n",
+              "duration": 43606252,
+              "status": "failed"
             },
             "line": 34,
             "name": "user entered valid username and password",
@@ -403,8 +57,8 @@
           },
           {
             "result": {
-              "duration": 2012264200,
-              "status": "passed"
+              "duration": 1360890,
+              "status": "skipped"
             },
             "line": 35,
             "name": "navigate user to welcome page",
@@ -415,8 +69,8 @@
           },
           {
             "result": {
-              "duration": 2095617500,
-              "status": "passed"
+              "duration": 734804,
+              "status": "skipped"
             },
             "line": 36,
             "name": "close",
@@ -434,1275 +88,6 @@
             "name": "@Successful_login"
           }
         ]
-      },
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 1408869600,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Test_steps.openBrowser()"
-            }
-          }
-        ],
-        "line": 38,
-        "name": "Failure in searching employee with incorrect name",
-        "description": "",
-        "id": "orangehrm;failure-in-searching-employee-with-incorrect-name",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 3783914200,
-              "status": "passed"
-            },
-            "line": 39,
-            "name": "user is on login page",
-            "match": {
-              "location": "Test_steps.user_is_on_login_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 116330100,
-              "status": "passed"
-            },
-            "line": 40,
-            "name": "user enters valid username and password",
-            "match": {
-              "location": "Test_steps.user_enters_valid_username_and_password()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 4380830900,
-              "status": "passed"
-            },
-            "line": 41,
-            "name": "click on login button",
-            "match": {
-              "location": "Test_steps.click_on_login_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 2000238600,
-              "status": "passed"
-            },
-            "line": 42,
-            "name": "user navigate to welcome page",
-            "match": {
-              "location": "Test_steps.user_navigate_to_welcome_page()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 4292283700,
-              "status": "passed"
-            },
-            "line": 43,
-            "name": "user navigate to search page",
-            "match": {
-              "location": "Test_steps.user_navigate_to_search_page()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 76831400,
-              "status": "passed"
-            },
-            "line": 44,
-            "name": "user enters wrong employee name",
-            "match": {
-              "location": "Test_steps.user_enters_wrong_employee_name()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 1399094400,
-              "status": "passed"
-            },
-            "line": 45,
-            "name": "click on search button",
-            "match": {
-              "location": "Test_steps.click_on_search_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 208200,
-              "status": "passed"
-            },
-            "line": 46,
-            "name": "Display no records",
-            "match": {
-              "location": "Test_steps.display_no_records()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 2104368400,
-              "status": "passed"
-            },
-            "line": 47,
-            "name": "close",
-            "match": {
-              "location": "Test_steps.close()"
-            },
-            "keyword": "And "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@OrangeHrm"
-          },
-          {
-            "name": "@UnSuccessful_search"
-          }
-        ]
-      },
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 1293414200,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Test_steps.openBrowser()"
-            }
-          }
-        ],
-        "line": 49,
-        "name": "Failure in searching employee with incorrect id",
-        "description": "",
-        "id": "orangehrm;failure-in-searching-employee-with-incorrect-id",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 4117274400,
-              "status": "passed"
-            },
-            "line": 50,
-            "name": "user is on login page",
-            "match": {
-              "location": "Test_steps.user_is_on_login_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 133639600,
-              "status": "passed"
-            },
-            "line": 51,
-            "name": "user enters valid username and password",
-            "match": {
-              "location": "Test_steps.user_enters_valid_username_and_password()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 5769827700,
-              "status": "passed"
-            },
-            "line": 52,
-            "name": "click on login button",
-            "match": {
-              "location": "Test_steps.click_on_login_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 2004329200,
-              "status": "passed"
-            },
-            "line": 53,
-            "name": "user navigate to welcome page",
-            "match": {
-              "location": "Test_steps.user_navigate_to_welcome_page()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 4354712600,
-              "status": "passed"
-            },
-            "line": 54,
-            "name": "user navigate to search page",
-            "match": {
-              "location": "Test_steps.user_navigate_to_search_page()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 74342300,
-              "status": "passed"
-            },
-            "line": 55,
-            "name": "user enters wrong employee id",
-            "match": {
-              "location": "Test_steps.user_enters_wrong_employee_id()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 586890100,
-              "status": "passed"
-            },
-            "line": 56,
-            "name": "click on search button",
-            "match": {
-              "location": "Test_steps.click_on_search_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 338200,
-              "status": "passed"
-            },
-            "line": 57,
-            "name": "Display no records",
-            "match": {
-              "location": "Test_steps.display_no_records()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 2117638000,
-              "status": "passed"
-            },
-            "line": 58,
-            "name": "close",
-            "match": {
-              "location": "Test_steps.close()"
-            },
-            "keyword": "And "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@OrangeHrm"
-          },
-          {
-            "name": "@UnSuccessful_search"
-          }
-        ]
-      },
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 1255950700,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Test_steps.openBrowser()"
-            }
-          }
-        ],
-        "line": 60,
-        "name": "Failure in searching employee with invalid data",
-        "description": "",
-        "id": "orangehrm;failure-in-searching-employee-with-invalid-data",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 4139317200,
-              "status": "passed"
-            },
-            "line": 61,
-            "name": "user is on login page",
-            "match": {
-              "location": "Test_steps.user_is_on_login_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 118766600,
-              "status": "passed"
-            },
-            "line": 62,
-            "name": "user enters valid username and password",
-            "match": {
-              "location": "Test_steps.user_enters_valid_username_and_password()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 5613834700,
-              "status": "passed"
-            },
-            "line": 63,
-            "name": "click on login button",
-            "match": {
-              "location": "Test_steps.click_on_login_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 2011827000,
-              "status": "passed"
-            },
-            "line": 64,
-            "name": "user navigate to welcome page",
-            "match": {
-              "location": "Test_steps.user_navigate_to_welcome_page()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 4385643800,
-              "status": "passed"
-            },
-            "line": 65,
-            "name": "user navigate to search page",
-            "match": {
-              "location": "Test_steps.user_navigate_to_search_page()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 153658700,
-              "status": "passed"
-            },
-            "line": 66,
-            "name": "user enters invalid employee details",
-            "match": {
-              "location": "Test_steps.user_enters_invalid_employee_details()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 1390400100,
-              "status": "passed"
-            },
-            "line": 67,
-            "name": "click on search button",
-            "match": {
-              "location": "Test_steps.click_on_search_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 249100,
-              "status": "passed"
-            },
-            "line": 68,
-            "name": "Display no records",
-            "match": {
-              "location": "Test_steps.display_no_records()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 2109988100,
-              "status": "passed"
-            },
-            "line": 69,
-            "name": "close",
-            "match": {
-              "location": "Test_steps.close()"
-            },
-            "keyword": "And "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@OrangeHrm"
-          },
-          {
-            "name": "@UnSuccessful_search"
-          }
-        ]
-      },
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 1328454800,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Test_steps.openBrowser()"
-            }
-          }
-        ],
-        "line": 71,
-        "name": "Successful searching employee with valid data",
-        "description": "",
-        "id": "orangehrm;successful-searching-employee-with-valid-data",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 3749688400,
-              "status": "passed"
-            },
-            "line": 72,
-            "name": "user is on login page",
-            "match": {
-              "location": "Test_steps.user_is_on_login_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 143869500,
-              "status": "passed"
-            },
-            "line": 73,
-            "name": "user enters valid username and password",
-            "match": {
-              "location": "Test_steps.user_enters_valid_username_and_password()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 5994781700,
-              "status": "passed"
-            },
-            "line": 74,
-            "name": "click on login button",
-            "match": {
-              "location": "Test_steps.click_on_login_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 2012307600,
-              "status": "passed"
-            },
-            "line": 75,
-            "name": "user navigate to welcome page",
-            "match": {
-              "location": "Test_steps.user_navigate_to_welcome_page()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 4373568800,
-              "status": "passed"
-            },
-            "line": 76,
-            "name": "user navigate to search page",
-            "match": {
-              "location": "Test_steps.user_navigate_to_search_page()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 163607600,
-              "status": "passed"
-            },
-            "line": 77,
-            "name": "user enters valid  employee details",
-            "match": {
-              "location": "Test_steps.user_enters_valid_employee_details()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 1449256400,
-              "status": "passed"
-            },
-            "line": 78,
-            "name": "click on search button",
-            "match": {
-              "location": "Test_steps.click_on_search_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 192700,
-              "status": "passed"
-            },
-            "line": 79,
-            "name": "Display all records",
-            "match": {
-              "location": "Test_steps.display_all_records()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 2100966100,
-              "status": "passed"
-            },
-            "line": 80,
-            "name": "close",
-            "match": {
-              "location": "Test_steps.close()"
-            },
-            "keyword": "And "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@OrangeHrm"
-          },
-          {
-            "name": "@Successful_search"
-          }
-        ]
-      },
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 1296212000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Test_steps.openBrowser()"
-            }
-          }
-        ],
-        "line": 82,
-        "name": "Failure in adding employee with missing first name",
-        "description": "",
-        "id": "orangehrm;failure-in-adding-employee-with-missing-first-name",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 3753432800,
-              "status": "passed"
-            },
-            "line": 83,
-            "name": "user is on login page",
-            "match": {
-              "location": "Test_steps.user_is_on_login_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 137583800,
-              "status": "passed"
-            },
-            "line": 84,
-            "name": "user enters valid username and password",
-            "match": {
-              "location": "Test_steps.user_enters_valid_username_and_password()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 5812553800,
-              "status": "passed"
-            },
-            "line": 85,
-            "name": "click on login button",
-            "match": {
-              "location": "Test_steps.click_on_login_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 2005748800,
-              "status": "passed"
-            },
-            "line": 86,
-            "name": "user navigate to welcome page",
-            "match": {
-              "location": "Test_steps.user_navigate_to_welcome_page()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 5846298200,
-              "status": "passed"
-            },
-            "line": 87,
-            "name": "user navigate to  add page",
-            "match": {
-              "location": "Test_steps.user_navigate_to_add_page()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 165714500,
-              "status": "passed"
-            },
-            "line": 88,
-            "name": "user enters data without first name",
-            "match": {
-              "location": "Test_steps.user_enters_data_without_first_name()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 80044700,
-              "status": "passed"
-            },
-            "line": 89,
-            "name": "click on save  button",
-            "match": {
-              "location": "Test_steps.click_on_save_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 162700,
-              "status": "passed"
-            },
-            "line": 90,
-            "name": "Alert fill required fields",
-            "match": {
-              "location": "Test_steps.alert_fill_required_fields()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 2100971800,
-              "status": "passed"
-            },
-            "line": 91,
-            "name": "close",
-            "match": {
-              "location": "Test_steps.close()"
-            },
-            "keyword": "And "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@OrangeHrm"
-          },
-          {
-            "name": "@Add_employee_firstname_validation"
-          }
-        ]
-      },
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 1473575900,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Test_steps.openBrowser()"
-            }
-          }
-        ],
-        "line": 93,
-        "name": "Failure in adding employee with missing last  name",
-        "description": "",
-        "id": "orangehrm;failure-in-adding-employee-with-missing-last--name",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 3792474800,
-              "status": "passed"
-            },
-            "line": 94,
-            "name": "user is on login page",
-            "match": {
-              "location": "Test_steps.user_is_on_login_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 118541400,
-              "status": "passed"
-            },
-            "line": 95,
-            "name": "user enters valid username and password",
-            "match": {
-              "location": "Test_steps.user_enters_valid_username_and_password()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 4354110900,
-              "status": "passed"
-            },
-            "line": 96,
-            "name": "click on login button",
-            "match": {
-              "location": "Test_steps.click_on_login_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 2007820400,
-              "status": "passed"
-            },
-            "line": 97,
-            "name": "user navigate to welcome page",
-            "match": {
-              "location": "Test_steps.user_navigate_to_welcome_page()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 5811762900,
-              "status": "passed"
-            },
-            "line": 98,
-            "name": "user navigate to  add page",
-            "match": {
-              "location": "Test_steps.user_navigate_to_add_page()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 147926700,
-              "status": "passed"
-            },
-            "line": 99,
-            "name": "user enters data without last  name",
-            "match": {
-              "location": "Test_steps.user_enters_data_without_last_name()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 70701400,
-              "status": "passed"
-            },
-            "line": 100,
-            "name": "click on save  button",
-            "match": {
-              "location": "Test_steps.click_on_save_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 117000,
-              "status": "passed"
-            },
-            "line": 101,
-            "name": "Alert fill required fields",
-            "match": {
-              "location": "Test_steps.alert_fill_required_fields()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 2106107100,
-              "status": "passed"
-            },
-            "line": 102,
-            "name": "close",
-            "match": {
-              "location": "Test_steps.close()"
-            },
-            "keyword": "And "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@OrangeHrm"
-          },
-          {
-            "name": "@Add_employee_lastname_validation"
-          }
-        ]
-      },
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 1248864800,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Test_steps.openBrowser()"
-            }
-          }
-        ],
-        "line": 104,
-        "name": "Failure in adding employee with existing id",
-        "description": "",
-        "id": "orangehrm;failure-in-adding-employee-with-existing-id",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 3837550600,
-              "status": "passed"
-            },
-            "line": 105,
-            "name": "user is on login page",
-            "match": {
-              "location": "Test_steps.user_is_on_login_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 126202400,
-              "status": "passed"
-            },
-            "line": 106,
-            "name": "user enters valid username and password",
-            "match": {
-              "location": "Test_steps.user_enters_valid_username_and_password()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 5570481500,
-              "status": "passed"
-            },
-            "line": 107,
-            "name": "click on login button",
-            "match": {
-              "location": "Test_steps.click_on_login_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 2003217000,
-              "status": "passed"
-            },
-            "line": 108,
-            "name": "user navigate to welcome page",
-            "match": {
-              "location": "Test_steps.user_navigate_to_welcome_page()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 5868591700,
-              "status": "passed"
-            },
-            "line": 109,
-            "name": "user navigate to  add page",
-            "match": {
-              "location": "Test_steps.user_navigate_to_add_page()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 241746300,
-              "status": "passed"
-            },
-            "line": 110,
-            "name": "user enters data with existing employee id",
-            "match": {
-              "location": "Test_steps.user_enters_data_with_existing_employee_id()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 954064500,
-              "status": "passed"
-            },
-            "line": 111,
-            "name": "click on save  button",
-            "match": {
-              "location": "Test_steps.click_on_save_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 337100,
-              "status": "passed"
-            },
-            "line": 112,
-            "name": "Alert cannot be saved...Already employee exists",
-            "match": {
-              "location": "Test_steps.alert_cannot_be_saved_Already_employee_exists()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 2093769400,
-              "status": "passed"
-            },
-            "line": 113,
-            "name": "close",
-            "match": {
-              "location": "Test_steps.close()"
-            },
-            "keyword": "And "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@OrangeHrm"
-          },
-          {
-            "name": "@existingid"
-          }
-        ]
-      },
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 1270396600,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Test_steps.openBrowser()"
-            }
-          }
-        ],
-        "line": 115,
-        "name": "successful addition of employee",
-        "description": "",
-        "id": "orangehrm;successful-addition-of-employee",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 3736969000,
-              "status": "passed"
-            },
-            "line": 116,
-            "name": "user is on login page",
-            "match": {
-              "location": "Test_steps.user_is_on_login_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 124009700,
-              "status": "passed"
-            },
-            "line": 117,
-            "name": "user enters valid username and password",
-            "match": {
-              "location": "Test_steps.user_enters_valid_username_and_password()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 5890243800,
-              "status": "passed"
-            },
-            "line": 118,
-            "name": "click on login button",
-            "match": {
-              "location": "Test_steps.click_on_login_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 2010324200,
-              "status": "passed"
-            },
-            "line": 119,
-            "name": "user navigate to welcome page",
-            "match": {
-              "location": "Test_steps.user_navigate_to_welcome_page()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 5758671400,
-              "status": "passed"
-            },
-            "line": 120,
-            "name": "user navigate to  add page",
-            "match": {
-              "location": "Test_steps.user_navigate_to_add_page()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 145367600,
-              "status": "passed"
-            },
-            "line": 121,
-            "name": "user enters data with valid employee details",
-            "match": {
-              "location": "Test_steps.user_enters_data_with_valid_employee_details()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 2187807900,
-              "status": "passed"
-            },
-            "line": 122,
-            "name": "click on save  button",
-            "match": {
-              "location": "Test_steps.click_on_save_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 317000,
-              "status": "passed"
-            },
-            "line": 123,
-            "name": "navigate to profile page",
-            "match": {
-              "location": "Test_steps.naviagte_to_profile_page()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 2103684200,
-              "status": "passed"
-            },
-            "line": 124,
-            "name": "close",
-            "match": {
-              "location": "Test_steps.close()"
-            },
-            "keyword": "And "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@OrangeHrm"
-          },
-          {
-            "name": "@Succesful_addition_of_employee"
-          }
-        ]
-      },
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 1276512100,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Test_steps.openBrowser()"
-            }
-          }
-        ],
-        "line": 126,
-        "name": "Delete employee details",
-        "description": "",
-        "id": "orangehrm;delete-employee-details",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 4048142900,
-              "status": "passed"
-            },
-            "line": 127,
-            "name": "user is on login page",
-            "match": {
-              "location": "Test_steps.user_is_on_login_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 143490400,
-              "status": "passed"
-            },
-            "line": 128,
-            "name": "user enters valid username and password",
-            "match": {
-              "location": "Test_steps.user_enters_valid_username_and_password()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 5678651300,
-              "status": "passed"
-            },
-            "line": 129,
-            "name": "click on login button",
-            "match": {
-              "location": "Test_steps.click_on_login_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 175500,
-              "status": "passed"
-            },
-            "line": 130,
-            "name": "user navigates to welcome page",
-            "match": {
-              "location": "Test_steps.user_navigates_to_welcome_page()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 5302729600,
-              "status": "passed"
-            },
-            "line": 131,
-            "name": "user navigates to delete page",
-            "match": {
-              "location": "Test_steps.user_navigates_to_delete_page()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 93472300,
-              "status": "passed"
-            },
-            "line": 132,
-            "name": "user search for valid employee name",
-            "match": {
-              "location": "Test_steps.user_search_for_valid_employee_name()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1421848800,
-              "status": "passed"
-            },
-            "line": 133,
-            "name": "click on search button",
-            "match": {
-              "location": "Test_steps.click_on_search_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 75054700,
-              "status": "passed"
-            },
-            "line": 134,
-            "name": "user clicks checkbox",
-            "match": {
-              "location": "Test_steps.user_clicks_checkbox()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 67726300,
-              "status": "passed"
-            },
-            "line": 135,
-            "name": "user click on delete button",
-            "match": {
-              "location": "Test_steps.user_click_on_delete_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 984685900,
-              "status": "passed"
-            },
-            "line": 136,
-            "name": "click on ok in dialog box",
-            "match": {
-              "location": "Test_steps.click_on_ok_in_dialog_box()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 122100,
-              "status": "passed"
-            },
-            "line": 137,
-            "name": "Display successfully deleted",
-            "match": {
-              "location": "Test_steps.display_successfully_deleted()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 2100036700,
-              "status": "passed"
-            },
-            "line": 138,
-            "name": "close",
-            "match": {
-              "location": "Test_steps.close()"
-            },
-            "keyword": "And "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@OrangeHrm"
-          },
-          {
-            "name": "@successful_deletion"
-          }
-        ]
       }
     ],
     "name": "OrangeHrm",
@@ -1713,6 +98,158 @@
     "tags": [
       {
         "name": "@OrangeHrm",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1332395029,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Test1_steps.openBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1287402038,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Test_steps.openBrowser()"
+            }
+          }
+        ],
+        "line": 32,
+        "name": "Login with valid  data",
+        "description": "",
+        "id": "tricentis;login-with-valid--data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status\nfrom unknown error: cannot determine loading status\nfrom disconnected: received Inspector.detached event\n  (Session info: chrome\u003d102.0.5005.115)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027H_7\u0027, ip: \u0027192.168.43.212\u0027, os.name: \u0027Windows 8.1\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.3\u0027, java.version: \u002718.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\\Users\\H-7\\AppData\\Local\\...}, goog:chromeOptions: {debuggerAddress: localhost:63285}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 8bee466dbc1d6bb6203064497b9cf949\r\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:857)\r\n\tat step_definitions.Test_steps.user_is_on_login_page(Test_steps.java:41)\r\n\tat ✽.user is on login page(Feature/tricentis.feature:33)\r\n",
+              "duration": 633373653,
+              "status": "failed"
+            },
+            "line": 33,
+            "name": "user is on login page",
+            "match": {
+              "location": "Test_steps.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 34,
+            "name": "user entered valid email and password",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8344763,
+              "status": "skipped"
+            },
+            "line": 35,
+            "name": "navigate user to welcome page",
+            "match": {
+              "location": "Test_steps.navigate_user_to_welcome_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 543596,
+              "status": "skipped"
+            },
+            "line": 36,
+            "name": "close",
+            "match": {
+              "location": "Test_steps.close()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 540555,
+              "status": "skipped"
+            },
+            "line": 37,
+            "name": "user is on login page",
+            "match": {
+              "location": "Test_steps.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1167780,
+              "status": "skipped"
+            },
+            "line": 38,
+            "name": "user enters valid username and password",
+            "match": {
+              "location": "Test_steps.user_enters_valid_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 366452,
+              "status": "skipped"
+            },
+            "line": 39,
+            "name": "click on login button",
+            "match": {
+              "location": "Test_steps.click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 470990,
+              "status": "skipped"
+            },
+            "line": 40,
+            "name": "user navigate to welcome page",
+            "match": {
+              "location": "Test_steps.user_navigate_to_welcome_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Tricentis"
+          },
+          {
+            "name": "@Successful_login"
+          }
+        ]
+      }
+    ],
+    "name": "Tricentis",
+    "description": "",
+    "id": "tricentis",
+    "keyword": "Feature",
+    "uri": "Feature/tricentis.feature",
+    "tags": [
+      {
+        "name": "@Tricentis",
         "type": "Tag",
         "location": {
           "line": 1,
